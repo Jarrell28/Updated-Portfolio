@@ -1,0 +1,21 @@
+{% extends 'templates/main.twig' %}
+
+{% block content %}
+    <div id="cart" class="container-fluid">
+        <div class="container">
+            {% if storage.storageExists('cart') %}
+                <h1 class="text-center my-5">Purchase Completed!</h1>
+                <h2 class="mb-5">Download your songs from links below!</h2>
+                {% for item in cart %}
+                    <a class="d-block my-2" href="/THBeats/public/music/{{ item.song_file }}" download="{{ item.Title }}">Download {{ item.Title }}</a>
+                {% endfor %}
+                {{ storage.deleteStorage('cart') }}
+                {{ storage.deleteStorage('email1') }}
+            {% else %}
+            <h3 class="text-center mt-5">Error has occurred</h3>
+                <p class="text-center mt-4">Please contact us if you have run into an error after purchase</p>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}
+

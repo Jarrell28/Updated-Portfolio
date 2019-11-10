@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/game-tv/static/css/main.e9d3ef33.chunk.css",
+    "main.js": "/game-tv/static/js/main.738a3a34.chunk.js",
+    "main.js.map": "/game-tv/static/js/main.738a3a34.chunk.js.map",
+    "runtime~main.js": "/game-tv/static/js/runtime~main.f041bdd3.js",
+    "runtime~main.js.map": "/game-tv/static/js/runtime~main.f041bdd3.js.map",
+    "static/js/2.c6614054.chunk.js": "/game-tv/static/js/2.c6614054.chunk.js",
+    "static/js/2.c6614054.chunk.js.map": "/game-tv/static/js/2.c6614054.chunk.js.map",
+    "index.html": "/game-tv/index.html",
+    "precache-manifest.6a1cae0588edc09e4c17d7d23a5d9c48.js": "/game-tv/precache-manifest.6a1cae0588edc09e4c17d7d23a5d9c48.js",
+    "service-worker.js": "/game-tv/service-worker.js",
+    "static/css/main.e9d3ef33.chunk.css.map": "/game-tv/static/css/main.e9d3ef33.chunk.css.map"
+  }
+}

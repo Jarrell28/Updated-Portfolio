@@ -1,0 +1,93 @@
+{% extends 'templates/main.twig' %}
+
+{% block content %}
+    <div id="cart" class="container-fluid">
+        <div class="container">
+            <h1 class="text-center my-5">Cart</h1>
+            {% if storage.storageExists('cart') %}
+                {% if storage.storageExists('email1') %}
+                <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_cart">
+                    <input type="hidden" name="business" value="jhoustonb@yahoo.com">
+                    <input type="hidden" name="currency_code" value="USD">
+
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Song</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col"></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {%  for item in cart %}
+                                    <tr>
+                                        <td>{{ item.Title }}</td>
+                                        <td>${{ item.Price }}.00</td>
+                                        <td><a href="{{ path_for('session.deleteFromStorage', {cart : 'cart', id: item.id}) }}"><i class="fas fa-times"></i></a></td>
+                                    </tr>
+                                    <input type="hidden" name="item_name_{{ loop.index }}" value="{{ item.Title }}">
+                                    <input type="hidden" name="item_number_{{ loop.index }}" value="{{ loop.index }}">
+                                    <input type="hidden" name="amount_{{ loop.index }}" value="{{ item.Price }}">
+                                    <input type="hidden" name="quantity_{{ loop.index }}" value="1">
+                                {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-4 col-sm-6 offset-sm-3 offset-md-0 text-center border border-white rounded p-4">
+                            <h3 class="mb-3">Checkout</h3>
+                            <h4 class="mb-3">Total: ${{ total }}.00</h4>
+
+                            <input id="paypal" class="paypalButton mt-3 " type="image" name="upload"
+                                   src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif"
+                                   alt="PayPal - The safer, easier way to pay online">
+
+                        </div>
+                    </div>
+                </form>
+                    {% else %}
+                        <form action="{{ path_for('cart.email') }}" method="post">
+
+                            <div class="row">
+                                <div class="col-md-8 col-sm-12">
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <th scope="col">Song</th>
+                                            <th scope="col">Price</th>
+                                            <th scope="col"></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        {%  for item in cart %}
+                                            <tr>
+                                                <td>{{ item.Title }}</td>
+                                                <td>${{ item.Price }}.00</td>
+                                                <td><a href="{{ path_for('session.deleteFromStorage', {cart : 'cart', id: item.id}) }}"><i class="fas fa-times"></i></a></td>
+                                            </tr>
+                                        {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="col-md-4 col-sm-6 offset-sm-3 offset-md-0 text-center border border-white rounded p-4">
+                                    <h3 class="mb-3">Checkout</h3>
+                                    <h4 class="mb-3">Total: ${{ total }}.00</h4>
+
+                                    <input class="form-control mb-3 " type="email" name="cart-email" placeholder="Enter Email">
+                                    <input type="submit" class="cart-btn" value="Submit">
+
+                                </div>
+                            </div>
+                        </form>
+                    {% endif %}
+
+
+            {% else %}
+            <h3 class="text-center">Your Cart is empty</h3>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}
+

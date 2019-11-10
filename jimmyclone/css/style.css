@@ -1,0 +1,1408 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0.75rem;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+}
+
+@font-face {
+    font-family: LeagueGothic;
+    src: url("../fonts/LeagueGothic-Regular.otf") format("opentype");
+}
+
+.topNav-full-container {
+    border-bottom: 5px solid #cccccc;
+    background-image: radial-gradient(
+        rgba(255, 255, 255, 1) 65%,
+        rgba(235, 235, 235, 0.59)
+    );
+    position: relative;
+}
+
+.topNav-container {
+    padding: 0;
+}
+
+#topNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.social-links img {
+    background-color: grey;
+    width: 1.68rem;
+    height: 1.68rem;
+}
+
+.topNav-links {
+    font-size: 0.63rem;
+    color: #999999;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 0.81rem;
+}
+
+.topNav-links a {
+    padding-top: 0;
+}
+
+.topNav-links li:not(:last-child) {
+    border-right: 1px dotted grey;
+}
+
+#cart-img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.cart-link span {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: "LeagueGothic";
+    color: #000;
+}
+
+.cart-link img {
+    vertical-align: unset;
+}
+
+.shopping-bag {
+    width: 25rem;
+    color: #666666;
+    text-align: left;
+    left: -11.75rem;
+    border-top: 3px solid #666666;
+}
+
+.shopping-bag-items {
+    max-height: 24rem;
+    min-height: 6.25rem;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: 1px solid #cccccc;
+}
+
+.empty-cart {
+    padding: 3.13rem 0px 3.13rem 4.1rem;
+    font-size: 0.75rem;
+}
+
+.sub-total {
+    font-size: 0.69rem;
+    color: #666666;
+    border-bottom: 1px dotted #cccccc;
+}
+
+#sub-total-span {
+    padding-left: 3.75rem;
+}
+
+.sub-total-price {
+    font-size: 1.6rem;
+    padding-right: 0.75rem;
+}
+
+.shopping-bag-checkout-right a {
+    font-size: 1.75rem;
+    font-family: "LeagueGothic";
+    font-style: italic;
+    color: #006633;
+    text-decoration: none;
+}
+
+#close-button-link {
+    top: 6px;
+}
+
+#close-button:hover #checkout-dropdown {
+    display: none !important;
+}
+
+#close-button {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+#close-button:hover {
+    cursor: pointer;
+}
+
+.brand-name {
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: "Coda Caption", sans-serif;
+}
+
+.search-form {
+    width: 40%;
+    margin-right: 2.2rem;
+}
+
+.search-bar {
+    border-radius: 13px;
+    border: 1px solid #cccccc;
+    z-index: 10;
+}
+
+.search-bar-input {
+    border: none;
+    background-color: transparent;
+}
+
+.search-bar-input:focus {
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+    background-color: transparent;
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.375rem;
+    text-transform: uppercase;
+    font-family: "LeagueGothic";
+}
+
+.mainNav li {
+    font-size: 1.5rem;
+    font-family: "LeagueGothic";
+    border-left: 2px solid #cccccc;
+}
+
+.mainNav li:last-child {
+    border-right: 2px solid #cccccc;
+}
+
+.mainNav a {
+    padding: 0 0.6875rem !important;
+}
+
+.mainNav div a:first-child {
+    font-family: "Arial";
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    margin-bottom: 0.312rem;
+    font-weight: bold;
+    color: #999;
+}
+
+.mainNav div a:not(:first-child) {
+    font-family: "Arial";
+    font-size: 0.75rem;
+    color: #999;
+}
+
+.mainNav div:not(:first-child)[class*="dropdown-menu"] {
+    left: 0;
+    right: 0;
+    top: 100%;
+    -webkit-box-shadow: 0px 8px 5px 0px rgba(50, 50, 50, 0.3);
+    box-shadow: 0px 8px 5px 0px rgba(50, 50, 50, 0.3);
+}
+
+nav.navbar {
+    position: unset;
+}
+
+.nav-item.dropdown {
+    position: unset;
+}
+
+.mainNav-links-border-right {
+    border-right: 1px dotted #cccccc;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+}
+
+.mainNav div a:hover {
+    background-color: transparent !important;
+    color: #000;
+}
+
+#mainNav1 ul {
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.slide-section .row {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.slide-section p {
+    color: #000;
+    font-family: "LeagueGothic";
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.slide-section img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide-section .col-5 {
+    padding: 0;
+}
+
+.image-slider img {
+    height: auto;
+}
+
+.new-arrivals {
+    color: #006633 !important;
+}
+
+.footer-container {
+    border-top: 5px solid #666666;
+    font-size: 0.625rem;
+    padding-bottom: 3rem;
+}
+
+.footer a {
+    color: #000 !important;
+    font-weight: bold;
+    padding: 0 0.625rem;
+}
+
+.footer li:not(:last-child) {
+    border-right: 1px solid #cccccc;
+}
+
+.footer li {
+    margin: 7px 0;
+}
+
+#footer-nav-container {
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+.prev-button {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.prev-button i {
+    color: #000;
+}
+
+.next-button {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.next-button i {
+    color: #000;
+}
+
+#mainNav-link1:hover #mainNav-dropdown1 {
+    display: block !important;
+}
+
+#mainNav-link2:hover #mainNav-dropdown2 {
+    display: block !important;
+}
+
+#mainNav-link3:hover #mainNav-dropdown3 {
+    display: block !important;
+}
+
+#mainNav-link4:hover #mainNav-dropdown4 {
+    display: block !important;
+}
+
+#mainNav-link5:hover #mainNav-dropdown5 {
+    display: block !important;
+}
+
+#mainNav-link6:hover #mainNav-dropdown6 {
+    display: block !important;
+}
+
+#mainNav-link7:hover #mainNav-dropdown7 {
+    display: block !important;
+}
+
+#mainNav-link8:hover #mainNav-dropdown8 {
+    display: block !important;
+}
+
+#mainNav-link8:hover #mainNav-dropdown8 {
+    display: block !important;
+}
+
+#mainNav-link9:hover #mainNav-dropdown9 {
+    display: block !important;
+}
+
+#mainNav-link10:hover #mainNav-dropdown10 {
+    display: block !important;
+}
+
+#mainNav-link11:hover #mainNav-dropdown11 {
+    display: block !important;
+}
+
+#mainNav-link12:hover #mainNav-dropdown12 {
+    display: block !important;
+}
+
+#checkout-link {
+    margin-top: -0.625rem;
+}
+
+#checkout-link:hover #checkout-dropdown {
+    display: block;
+}
+
+#carouselExampleControls3 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#shop li a,
+#shop li a:visited {
+    color: #999999;
+    text-decoration: none;
+}
+
+#shop li {
+    list-style: none;
+}
+
+#shop {
+    font-size: 0.75rem;
+    font-family: "Arial";
+    text-transform: uppercase;
+}
+
+#shop > li {
+    font-weight: bold;
+}
+
+#shop ul li a {
+    font-weight: normal;
+}
+
+#shop input {
+    width: 1.44rem;
+    margin-left: 2px;
+}
+
+#shop button {
+    padding: 0 3px;
+}
+
+#shop-items {
+    color: #999999;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#shop-products {
+    color: #000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#shop-products a h4 {
+    color: #000;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    font-family: "LeagueGothic";
+    margin-top: 6px;
+}
+
+#shop-products a h6 {
+    color: #666666;
+    font-weight: bold;
+    font-size: 0.687rem;
+    margin-bottom: 0;
+}
+
+#shop-products a h5 {
+    color: #666666;
+    font-weight: normal;
+    font-size: 0.687rem;
+    margin-bottom: 0;
+}
+
+#shop-products a {
+    text-decoration: none;
+}
+
+#shop-products p {
+    font-size: 1.06rem;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 1rem;
+}
+
+#shop-products div img {
+    width: 12.31rem;
+    height: 13.56rem;
+}
+
+#shop-products div[class="col-4 mb-4"] {
+    text-align: center;
+}
+
+#product-image-container {
+    max-width: 45%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 45%;
+    flex: 0 0 45%;
+}
+
+#product-image {
+    width: 100%;
+}
+
+#product-image img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+#product-info {
+    max-width: 30%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+}
+
+#product-info h1 {
+    font-family: "LeagueGothic";
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #333333;
+    line-height: 2.625rem;
+}
+
+#product-info h2 {
+    font-size: 2.25rem;
+    display: block;
+    color: #999999;
+    font-family: "LeagueGothic";
+    text-transform: uppercase;
+}
+
+#product-info h3 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #333333;
+    border-top: 1px dotted #cccccc;
+    border-bottom: 1px dotted #cccccc;
+}
+
+#product-info h6 {
+    font-size: 0.8125rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.cart-container {
+    width: 80%;
+    padding: 0;
+}
+
+.cart-container .row {
+    margin: 0;
+}
+
+.cart-container .row .col-6 {
+    padding: 0;
+}
+
+.cart-breadcrumb a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.cart-breadcrumb {
+    color: #999999;
+    font-size: 0.625rem;
+    font-weight: bold;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 0;
+    margin-right: 5%;
+}
+
+.cart-breadcrumb h2 {
+    font-size: 1.0625rem;
+    color: #333333;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.cart-btn {
+    background-repeat: repeat-x;
+    height: 1.75rem;
+    padding: 0px 1.25rem;
+    line-height: 1.75rem;
+    color: #ffffff;
+    border: medium none;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    cursor: pointer;
+    background-image: radial-gradient(rgb(164, 223, 107), rgb(148, 184, 76));
+    background-position: bottom;
+    text-align: center;
+    border-radius: 0 !important;
+}
+
+.cart-btn:hover {
+    color: #ffffff;
+}
+
+.cart-table thead {
+    background-color: #b0b0b0;
+    color: #fff;
+}
+
+.cart-table thead tr {
+    height: 1.125rem;
+}
+
+.cart-table thead tr th:nth-child(2) {
+    width: 13.875rem;
+}
+
+.cart-table thead tr th:nth-child(3) {
+    width: 8.56rem;
+}
+.cart-table thead tr th:nth-child(4) {
+    width: 6.375rem;
+}
+.cart-table th:not(:first-child) {
+    border-left: 1px solid #ffffff;
+    padding-left: 0.625rem;
+    font-weight: normal;
+}
+
+.cart-table tbody {
+    vertical-align: top;
+    font-weight: bold;
+    color: #666666;
+    font-size: 0.625rem;
+}
+
+.cart-table tbody tr td {
+    padding-top: 0.9375rem;
+}
+
+.cart-table tbody tr td:last-child {
+    color: #333333;
+    float: right;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.cart-table tbody tr {
+    border-bottom: 1px dotted #cccccc;
+}
+
+.cart-table tbody a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cart-subtotal p {
+    color: #000000;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.cart-subtotal p span {
+    font-size: 2rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.cart-subtotal {
+    border-bottom: 1px dotted #cccccc;
+}
+
+.cart-subtotal form button {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 1.125rem;
+}
+
+.checkout-cart-container {
+    border-bottom: 1px dotted #000000;
+}
+
+.checkout-cart {
+    font-weight: bold;
+    color: #666666;
+    font-size: 0.625rem;
+}
+
+.checkout-cart-subtotal {
+    font-size: 1.125rem;
+    color: #333333;
+    float: right;
+    margin-right: 1.875rem;
+    font-weight: bold;
+}
+
+.quantity {
+    border: 1px solid #bdbcbd;
+    font-size: 0.75rem;
+    width: 1.81rem;
+    height: 1rem;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+.update-quantity {
+    text-transform: uppercase;
+    font-size: 0.625rem;
+    font-weight: bold;
+    margin-left: 0.625rem;
+    margin-top: 4px;
+    text-decoration: none;
+    color: #999999;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-results {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    background-color: #ffffff;
+    z-index: 10000;
+    border: 1px solid #cccccc;
+    width: 36.87rem;
+    height: auto;
+    display: none;
+}
+
+.search-results div:last-child {
+    -webkit-box-flex: 1.3;
+    -ms-flex: 1.3;
+    flex: 1.3;
+}
+
+.table-container {
+    border: 1px solid #cccccc;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.table-results thead tr {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #006633;
+}
+
+.table-results thead tr td {
+    vertical-align: middle !important;
+}
+
+.table-results thead th {
+    border-bottom: none;
+    width: 60%;
+}
+
+.table-results {
+    width: 90%;
+    border-left: none;
+    border-right: none;
+    margin-left: 0.94rem;
+    margin-right: 0.94rem;
+}
+
+.table-results a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.table-results tr:hover {
+    background-color: #daebfd !important;
+}
+
+#search-bar {
+    /* Chrome/Opera/Safari */
+    color: #999999;
+    text-transform: uppercase;
+    font-family: "LeagueGothic";
+    font-size: 1.25rem;
+    font-style: italic;
+    padding: 0.25rem 1rem;
+}
+
+.recommends {
+    border-bottom: 1px solid #999999;
+    color: #999999;
+    font-size: 1.5rem;
+    font-family: "LeagueGothic";
+    height: 1.75rem;
+    text-transform: uppercase;
+    padding: 0px 0.625rem;
+}
+
+.recommend-container {
+    padding: 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.recommend-container .col-2 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 25%;
+    flex: 1 0 25%;
+    max-width: 25%;
+    text-align: center;
+}
+
+.recommends-links {
+    text-decoration: none;
+    font-family: "LeagueGothic";
+    font-size: 0.6875rem;
+    color: #666666;
+}
+
+.recommends-links:hover {
+    text-decoration: none;
+    color: #666666;
+}
+
+.recommends-span {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #333333;
+}
+
+.recommends-p {
+    font-size: 1.0625rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+.recommends-container {
+    width: 60%;
+}
+
+.recommends-span-2 {
+    color: #666666;
+    font-weight: normal;
+    font-size: 0.6875rem;
+    font-family: "Arial";
+}
+
+.recommends-h5 {
+    margin-top: -0.625rem;
+}
+
+.slide-section .row .col-5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 49%;
+    flex: 0 0 49%;
+    max-width: unset;
+}
+
+.slide-section .row .col-5 a {
+    display: block;
+    width: 100%;
+    height: 17.5rem;
+    position: relative;
+}
+
+.slide-section .row .col-5 a span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#footwear-link {
+    background-image: -webkit-gradient(
+            linear,
+            right top, left top,
+            from(rgba(0, 0, 0, 0.3)),
+            to(rgba(0, 0, 0, 0.3))
+        ),
+        url("../img/icons/shopfootwear.jpg");
+    background-image: linear-gradient(
+            to left,
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url("../img/icons/shopfootwear.jpg");
+}
+
+#clothing-link {
+    background-image: -webkit-gradient(
+            linear,
+            right top, left top,
+            from(rgba(0, 0, 0, 0.3)),
+            to(rgba(0, 0, 0, 0.3))
+        ),
+        url("../img/icons/shopclothing.jpg");
+    background-image: linear-gradient(
+            to left,
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url("../img/icons/shopclothing.jpg");
+}
+
+#accessory-link {
+    background-image: -webkit-gradient(
+            linear,
+            right top, left top,
+            from(rgba(0, 0, 0, 0.3)),
+            to(rgba(0, 0, 0, 0.3))
+        ),
+        url("../img/icons/shopaccessories.jpg");
+    background-image: linear-gradient(
+            to left,
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url("../img/icons/shopaccessories.jpg");
+}
+
+#all-link {
+    background-image: -webkit-gradient(
+            linear,
+            right top, left top,
+            from(rgba(0, 0, 0, 0.3)),
+            to(rgba(0, 0, 0, 0.3))
+        ),
+        url("../img/icons/newarrivals.jpg");
+    background-image: linear-gradient(
+            to left,
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url("../img/icons/newarrivals.jpg");
+}
+
+.links {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "LeagueGothic";
+    font-size: 30pt;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.links:hover {
+    color: #ffffff;
+}
+
+.filter-btn {
+    background: transparent;
+    border: 1px solid #000;
+    margin-left: 1rem;
+    padding: 0.09rem 1rem;
+    font-size: 0.8rem;
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 80%;
+    }
+    /* .topNav-container{
+
+    } */
+}
+
+@media screen and (max-width: 1000px) {
+    html {
+        font-size: 70%;
+    }
+    /* .topNav-container{
+
+    } */
+}
+
+@media only screen and (max-width: 767px) {
+    .topNav-full-container {
+        border-bottom: 1px solid #cccccc;
+    }
+
+    .mainNav li {
+        border-left: none;
+    }
+
+    .mainNav li:last-child {
+        border-right: none;
+    }
+
+    #mainNav-link1:hover #mainNav-dropdown1 {
+        display: none !important;
+    }
+
+    #mainNav-link2:hover #mainNav-dropdown2 {
+        display: none !important;
+    }
+
+    #mainNav-link3:hover #mainNav-dropdown3 {
+        display: none !important;
+    }
+
+    #mainNav-link4:hover #mainNav-dropdown4 {
+        display: none !important;
+    }
+
+    #mainNav-link5:hover #mainNav-dropdown5 {
+        display: none !important;
+    }
+
+    #mainNav-link6:hover #mainNav-dropdown6 {
+        display: none !important;
+    }
+
+    #mainNav-link7:hover #mainNav-dropdown7 {
+        display: none !important;
+    }
+
+    #mainNav-link8:hover #mainNav-dropdown8 {
+        display: none !important;
+    }
+
+    #mainNav-link8:hover #mainNav-dropdown8 {
+        display: none !important;
+    }
+
+    #mainNav-link9:hover #mainNav-dropdown9 {
+        display: none !important;
+    }
+
+    #mainNav-link10:hover #mainNav-dropdown10 {
+        display: none !important;
+    }
+
+    #mainNav-link11:hover #mainNav-dropdown11 {
+        display: none !important;
+    }
+
+    #mainNav-link12:hover #mainNav-dropdown12 {
+        display: none !important;
+    }
+
+    #checkout-link:hover #checkout-dropdown {
+        display: none;
+    }
+
+    .topNav-full-container {
+        background-image: none;
+    }
+
+    .topNav-container {
+        background-image: none;
+        position: relative;
+    }
+
+    .topNav-container nav {
+        position: unset;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    .topNav-container nav:first-child {
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+        padding-top: 0.5rem !important;
+    }
+
+    .brand-name {
+        position: absolute;
+        top: 0.5rem;
+        left: 3.5rem;
+        font-size: 1.2rem;
+    }
+
+    #topNav {
+        width: unset;
+    }
+
+    .container {
+        min-width: 18.75rem !important;
+    }
+
+    .fluid-container {
+        min-width: 18.75rem !important;
+    }
+
+    .nav-link {
+        padding: 0;
+    }
+
+    .navbar-toggler {
+        padding: 0;
+        border: none;
+        position: relative;
+    }
+
+    .topNav-container {
+        padding: 0 1rem;
+    }
+
+    .search-form {
+        width: 100%;
+        margin: 0.625rem 0;
+    }
+
+    .search-bar {
+        height: 1.9375rem;
+    }
+
+    .search-results {
+        display: none !important;
+    }
+
+    #product-image-container {
+        max-width: 50%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    }
+
+    .recommends-container {
+        width: 80%;
+    }
+
+    .cart-container .row .col-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .image-slider img {
+        min-height: 200px;
+        width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: center;
+        object-position: center;
+    }
+
+    .slide-section img {
+        min-height: 200px;
+        width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: center;
+        object-position: center;
+    }
+
+    .slide-section {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100% !important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .filter-list {
+        position: absolute;
+        right: 100%;
+        -webkit-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+        background: #fff;
+        z-index: 1;
+        border: 1px solid;
+        padding: 1rem;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+        flex: 0 0 30%;
+        max-width: 40%;
+    }
+
+    .filter-list.active {
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    .filter-btn {
+        display: inline-block;
+    }
+
+    .slide-section div[class="col-5 ml-5"] {
+        margin-left: 0 !important;
+        display: block;
+        max-width: unset;
+        -webkit-box-flex: unset;
+        -ms-flex: unset;
+        flex: unset;
+    }
+
+    .slide-section div[class="col-5"] {
+        max-width: unset;
+        -webkit-box-flex: unset;
+        -ms-flex: unset;
+        flex: unset;
+    }
+
+    #carouselExampleControls3 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #shop-products div[class="col-4 mb-4"] {
+        -webkit-box-flex: unset;
+        -ms-flex: unset;
+        flex: 0 0 49%;
+        max-width: 49%;
+        display: block;
+    }
+
+    #shop-products div img {
+        width: 10rem;
+        height: 10rem;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+
+    #select1 {
+        display: block;
+        margin-bottom: 0.625rem;
+    }
+
+    #select2 {
+        display: block;
+        margin-bottom: 0.625rem;
+    }
+
+    #product-image-container {
+        max-width: 60%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+    }
+
+    #product-info {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-left: 20% !important;
+        padding-left: 0 !important;
+    }
+
+    .recommends-container div[class="col-2 ml-auto mr-auto"] {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+
+    .recommends-container img {
+        width: 100% !important;
+    }
+
+    #checkout-link {
+        display: block !important;
+        margin-top: unset;
+    }
+
+    table tbody img {
+        width: 4.375rem !important;
+        height: 5rem !important;
+    }
+
+    table tbody {
+        font-size: 0.5rem !important;
+    }
+
+    table tbody input {
+        font-size: 0.5rem !important;
+    }
+
+    .cart-table thead tr th:nth-child(3) {
+        padding-right: 1.5625rem;
+    }
+
+    #clothing-link {
+        width: 100%;
+        margin-bottom: 0.9375rem;
+    }
+
+    #footwear-link {
+        width: 100%;
+        margin-bottom: 0.9375rem;
+    }
+
+    #accessory-link {
+        width: 100%;
+        margin-bottom: 0.9375rem;
+    }
+
+    #all-link {
+        width: 100%;
+        margin-bottom: 0.9375rem;
+    }
+
+    .slide-section .row {
+        margin-left: 0;
+        margin-right: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .slide-section .row div.col-5 {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        max-width: 80%;
+        margin: 0 auto !important;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .slide-section .row:nth-child(4) {
+        margin-bottom: 0 !important;
+    }
+
+    .slide-section .row:nth-child(5) {
+        margin-top: 0 !important;
+    }
+
+    .brand-name {
+        top: 0.84rem;
+    }
+
+    .cart-container .row .col-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #carouselExampleControls3 {
+        width: 100%;
+    }
+
+    .slide-section .row div.col-5 {
+        max-width: 100%;
+    }
+
+    .recommend-container .col-2 {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 0 50%;
+        flex: 1 0 50%;
+        max-width: 50%;
+    }
+
+    .cart-container {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .brand-name {
+        font-size: 0.9rem;
+        top: 0.7rem;
+        letter-spacing: 1px;
+    }
+
+    #cart-img {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    #checkout-link span {
+        font-size: 1.2rem;
+    }
+
+    #product-image-container {
+        max-width: 75%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 80%;
+        flex: 0 0 80%;
+    }
+
+    #product-category {
+        max-width: 20%;
+        padding-right: 0 !important;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        margin-right: 5% !important;
+    }
+
+    #product-info {
+        margin-left: 30% !important;
+    }
+
+    .cart-breadcrumb {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 23%;
+        flex: 0 0 23%;
+        max-width: 23%;
+        margin-right: 2%;
+    }
+
+    .cart-breadcrumb h2 {
+        font-size: 0.8rem;
+    }
+
+    .cart-breadcrumb span {
+        font-size: 0.3rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .filter-btn {
+        display: block;
+        margin: 0.5rem auto;
+    }
+}

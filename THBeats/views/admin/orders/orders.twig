@@ -1,0 +1,40 @@
+{% extends 'admin/index.twig' %}
+
+
+{% block content %}
+    <h1>Orders</h1>
+    {% if message %}
+        {{ message|raw }}
+    {% endif %}
+
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Email</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Currency</th>
+                <th scope="col">Status</th>
+                <th scope="col">Date</th>
+                <th></th>
+                <th></th>
+            </tr>
+            </thead>
+
+            <tbody>
+            {% for order in orders %}
+                <tr>
+                    <th scope="row">{{ loop.index }}</th>
+                    <td>{{ order.email }}</td>
+                    <td>{{ order.amount }}</td>
+                    <td>{{ order.currency }}</td>
+                    <td>{{ order.status }}</td>
+                    <td>{{ order.order_date }}</td>
+                    <td><a href="{{ path_for("admin.deleteOrder", {'id': order.id}) }}" class="btn btn-danger btn-sm">Delete</a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

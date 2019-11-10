@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae6757bf-2f15-4360-a17a-a5bbc4362dda" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>condi</find>
+      <find>h2</find>
+      <find>album</find>
+      <find>tracklistRow</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>playlist</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/includes/classes/Constants.php" />
+        <option value="$PROJECT_DIR$/includes/config.php" />
+        <option value="$PROJECT_DIR$/includes/handlers/login-handler.php" />
+        <option value="$PROJECT_DIR$/includes/handlers/register-handler.php" />
+        <option value="$PROJECT_DIR$/includes/classes/Account.php" />
+        <option value="$PROJECT_DIR$/assets/css/register.php" />
+        <option value="$PROJECT_DIR$/assets/js/register.js" />
+        <option value="$PROJECT_DIR$/../OOP_PHP/gallery/admin/includes/paginate.php" />
+        <option value="$PROJECT_DIR$/register.php" />
+        <option value="$PROJECT_DIR$/assets/css/register.css" />
+        <option value="$PROJECT_DIR$/includes/footer.php" />
+        <option value="$PROJECT_DIR$/includes/classes/Album.php" />
+        <option value="$USER_HOME$/Desktop/Notes/javascript_notes.txt" />
+        <option value="$PROJECT_DIR$/includes/handlers/ajax/getSongJson.php" />
+        <option value="$PROJECT_DIR$/includes/handlers/ajax/getAlbumJson.php" />
+        <option value="$PROJECT_DIR$/includes/handlers/ajax/updatePlays.php" />
+        <option value="$PROJECT_DIR$/includes/classes/Song.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/includes/classes/Artist.php" />
+        <option value="$PROJECT_DIR$/includes/nowPlayingBar.php" />
+        <option value="$PROJECT_DIR$/includes/includedFiles.php" />
+        <option value="$PROJECT_DIR$/yourMusic.php" />
+        <option value="$PROJECT_DIR$/includes/classes/Playlist.php" />
+        <option value="$PROJECT_DIR$/includes/handlers/ajax/deletePlaylist.php" />
+        <option value="$PROJECT_DIR$/includes/handlers/ajax/addToPlaylist.php" />
+        <option value="$PROJECT_DIR$/album.php" />
+        <option value="$PROJECT_DIR$/search.php" />
+        <option value="$PROJECT_DIR$/artist.php" />
+        <option value="$PROJECT_DIR$/playlist.php" />
+        <option value="$PROJECT_DIR$/settings.php" />
+        <option value="$PROJECT_DIR$/includes/handlers/ajax/logout.php" />
+        <option value="$PROJECT_DIR$/includes/navBarContainer.php" />
+        <option value="$PROJECT_DIR$/includes/header.php" />
+        <option value="$PROJECT_DIR$/includes/classes/User.php" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/includes/handlers/ajax/updateEmail.php" />
+        <option value="$PROJECT_DIR$/assets/js/script.js" />
+        <option value="$PROJECT_DIR$/updateDetails.php" />
+        <option value="$PROJECT_DIR$/includes/handlers/ajax/updatePassword.php" />
+        <option value="$USER_HOME$/Desktop/Notes/AJAX_notes.txt" />
+        <option value="$USER_HOME$/Desktop/Notes/Spotify_Clone_Javascript.txt" />
+        <option value="$PROJECT_DIR$/includes/handlers/ajax/getArtistJson.php" />
+        <option value="$PROJECT_DIR$/includes/handlers/ajax/removeFromPlaylist.php" />
+        <option value="$PROJECT_DIR$/includes/handlers/ajax/createPlaylist.php" />
+        <option value="$USER_HOME$/Desktop/Notes/Spotify_Clone_AJAX.txt" />
+        <option value="$USER_HOME$/Desktop/Notes/Spotify_Clone.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spotify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spotify" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="spotify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spotify" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="spotify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spotify" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="spotify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spotify" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="spotify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spotify" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="spotify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spotify" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="spotify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spotify" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="handlers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="spotify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spotify" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="handlers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/udemyAdvancedCSS" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/MAMP/htdocs/spotify/artist.php&#10;.progressTime {&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\spotify\includes\handlers\ajax" />
+      <recent name="C:\MAMP\htdocs\spotify" />
+      <recent name="C:\MAMP\htdocs\spotify\includes\classes" />
+      <recent name="C:\MAMP\htdocs\spotify\assets\music" />
+      <recent name="C:\MAMP\htdocs\spotify\assets\images\profile-pics" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae6757bf-2f15-4360-a17a-a5bbc4362dda" name="Default" comment="" />
+      <created>1516969680419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516969680419</updated>
+      <workItem from="1516969682444" duration="26352000" />
+      <workItem from="1517120618050" duration="39637000" />
+      <workItem from="1517239101381" duration="21883000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="87872000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17776585" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/includes/handlers/register-handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/handlers/login-handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OOP_PHP/gallery/admin/includes/paginate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Notes/CSS.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/register.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="19" column="70" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ImportOnlyTheSongs.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Slotify-searchAlbums.zip/Slotify/artist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2002">
+          <caret line="91" column="12" lean-forward="true" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+          <folding>
+            <marker date="1517239175139" expanded="true" signature="801:1446" ph="..." />
+            <marker date="1517239175139" expanded="true" signature="831:1023" ph="..." />
+            <marker date="1517239175139" expanded="true" signature="1054:1204" ph="..." />
+            <marker date="1517239175139" expanded="true" signature="1237:1318" ph="..." />
+            <marker date="1517239175139" expanded="true" signature="1352:1434" ph="..." />
+            <marker date="1517239175139" expanded="true" signature="1717:1762" ph="SELECT * FRO... albums" />
+            <marker date="1517239175139" expanded="true" signature="1858:2096" ph="..." />
+            <marker date="1517239175139" expanded="true" signature="1951:2084" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Slotify-deletePlaylistAjax.zip/Slotify/assets/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="92" column="40" lean-forward="true" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
+          <folding>
+            <marker date="1517277198807" expanded="true" signature="1532:1586" ph="SELECT * FRO... songs" />
+            <marker date="1517277198807" expanded="true" signature="2162:3788" ph="..." />
+            <marker date="1517277198807" expanded="true" signature="2220:2729" ph="..." />
+            <marker date="1517277198807" expanded="true" signature="2258:2418" ph="..." />
+            <marker date="1517277198807" expanded="true" signature="2818:3044" ph="..." />
+            <marker date="1517277198807" expanded="true" signature="3106:3520" ph="..." />
+            <marker date="1517277198807" expanded="true" signature="3617:3752" ph="..." />
+            <marker date="1517277198807" expanded="true" signature="4326:4382" ph="SELECT id FR... artists" />
+            <marker date="1517277198807" expanded="true" signature="4674:4943" ph="..." />
+            <marker date="1517277198807" expanded="true" signature="4719:4917" ph="..." />
+            <marker date="1517277198807" expanded="true" signature="5072:5127" ph="SELECT * FRO... albums" />
+            <marker date="1517277198807" expanded="true" signature="5360:5749" ph="..." />
+            <marker date="1517277198807" expanded="true" signature="5489:5721" ph="..." />
+            <marker date="1517277198807" expanded="true" signature="5611:5690" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <marker date="1517062709615" expanded="true" signature="967:1088" ph="..." />
+            <marker date="1517062709615" expanded="true" signature="1003:1077" ph="{...}" />
+            <marker date="1517062709615" expanded="true" signature="1118:1243" ph="..." />
+            <marker date="1517062709615" expanded="true" signature="1154:1228" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/classes/Account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="134" column="68" lean-forward="true" selection-start-line="134" selection-start-column="68" selection-end-line="134" selection-end-column="68" />
+          <folding>
+            <marker date="1517019030757" expanded="true" signature="399:441" ph="SELECT * FRO... users" />
+            <marker date="1517019030757" expanded="true" signature="399:462" ph="SELECT * FRO... users" />
+            <marker date="1517019030757" expanded="true" signature="1815:1851" ph="INSERT INTO users... " />
+            <marker date="1517019030757" expanded="true" signature="1815:1864" ph="INSERT INTO users... " />
+            <marker date="1517019030757" expanded="true" signature="1815:1871" ph="INSERT INTO users... " />
+            <marker date="1517019030757" expanded="true" signature="1815:1887" ph="INSERT INTO users... " />
+            <marker date="1517019030757" expanded="true" signature="1815:1888" ph="INSERT INTO users... " />
+            <marker date="1517019030757" expanded="true" signature="1815:1896" ph="INSERT INTO users... " />
+            <marker date="1517019030757" expanded="true" signature="1815:1911" ph="INSERT INTO users... " />
+            <marker date="1517019030757" expanded="true" signature="1815:1912" ph="INSERT INTO users... " />
+            <marker date="1517019030757" expanded="true" signature="2346:2395" ph="SELECT usern... users" />
+            <marker date="1517019030757" expanded="true" signature="3623:3666" ph="SELECT email... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="501" column="14" lean-forward="true" selection-start-line="501" selection-start-column="14" selection-end-line="501" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/album.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <marker date="1517277077119" expanded="true" signature="1018:2644" ph="..." />
+            <marker date="1517277077119" expanded="true" signature="1076:1402" ph="..." />
+            <marker date="1517277077119" expanded="true" signature="1076:1585" ph="..." />
+            <marker date="1517277077119" expanded="true" signature="1114:1274" ph="..." />
+            <marker date="1517277077119" expanded="true" signature="1674:1736" ph="..." />
+            <marker date="1517277077119" expanded="true" signature="1674:1737" ph="..." />
+            <marker date="1517277077119" expanded="true" signature="1674:1759" ph="..." />
+            <marker date="1517277077119" expanded="true" signature="1674:1900" ph="..." />
+            <marker date="1517277077119" expanded="true" signature="1962:2130" ph="..." />
+            <marker date="1517277077119" expanded="true" signature="1962:2376" ph="..." />
+            <marker date="1517277077119" expanded="true" signature="2473:2608" ph="..." />
+            <marker date="1517277077119" expanded="true" signature="2533:2567" ph="..." />
+            <marker date="1517277077119" expanded="true" signature="2707:2828" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <marker date="1517277229295" expanded="true" signature="1029:2655" ph="..." />
+            <marker date="1517277229295" expanded="true" signature="1087:1596" ph="..." />
+            <marker date="1517277229295" expanded="true" signature="1125:1285" ph="..." />
+            <marker date="1517277229295" expanded="true" signature="1685:1911" ph="..." />
+            <marker date="1517277229295" expanded="true" signature="1973:2387" ph="..." />
+            <marker date="1517277229295" expanded="true" signature="2484:2619" ph="..." />
+            <marker date="1517277229295" expanded="true" signature="3141:3162" ph="SELECT * FRO... albums" />
+            <marker date="1517277229295" expanded="true" signature="3141:3167" ph="SELECT * FRO... albums" />
+            <marker date="1517277229295" expanded="true" signature="3141:3186" ph="SELECT * FRO... albums" />
+            <marker date="1517277229295" expanded="true" signature="3283:3614" ph="..." />
+            <marker date="1517277229295" expanded="true" signature="3283:3672" ph="..." />
+            <marker date="1517277229295" expanded="true" signature="3412:3613" ph="..." />
+            <marker date="1517277229295" expanded="true" signature="3412:3614" ph="..." />
+            <marker date="1517277229295" expanded="true" signature="3534:3613" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/classes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/updateDetails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yourMusic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1517269323434" expanded="true" signature="453:489" ph="SELECT * FRO... playlist" />
+            <marker date="1517269323434" expanded="true" signature="453:502" ph="SELECT * FRO... playlist" />
+            <marker date="1517269323434" expanded="true" signature="895:1257" ph="..." />
+            <marker date="1517269323434" expanded="true" signature="956:1075" ph="..." />
+            <marker date="1517269323434" expanded="true" signature="1143:1173" ph="..." />
+            <marker date="1517269323434" expanded="true" signature="1143:1229" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Notes/AJAX_notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playlist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <marker date="1517277616750" expanded="true" signature="1102:2742" ph="..." />
+            <marker date="1517277616750" expanded="true" signature="1160:1675" ph="..." />
+            <marker date="1517277616750" expanded="true" signature="1198:1361" ph="..." />
+            <marker date="1517277616750" expanded="true" signature="1764:1992" ph="..." />
+            <marker date="1517277616750" expanded="true" signature="2054:2471" ph="..." />
+            <marker date="1517277616750" expanded="true" signature="2568:2706" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Notes/Spotify_Clone_Javascript.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Notes/javascript_notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/handlers/ajax/getArtistJson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/handlers/ajax/getAlbumJson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1517189420185" expanded="true" signature="166:198" ph="SELECT * FRO... songs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/handlers/ajax/getSongJson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1517188019071" expanded="true" signature="163:194" ph="SELECT * FRO... songs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/handlers/ajax/updatePlays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1517190597316" expanded="true" signature="201:247" ph="UPDATE songs... " />
+            <marker date="1517190597316" expanded="true" signature="213:247" ph="SELECT * FRO... songs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/handlers/ajax/updatePassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <marker date="1517285221547" expanded="true" signature="656:704" ph="SELECT * FRO... users" />
+            <marker date="1517285221547" expanded="true" signature="656:729" ph="SELECT * FRO... users" />
+            <marker date="1517285221547" expanded="true" signature="1251:1288" ph="UPDATE users... " />
+            <marker date="1517285221547" expanded="true" signature="1251:1317" ph="UPDATE users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/handlers/ajax/updateEmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding>
+            <marker date="1517284385689" expanded="true" signature="424:470" ph="SELECT email... users" />
+            <marker date="1517284385689" expanded="true" signature="424:498" ph="SELECT email... users" />
+            <marker date="1517284385689" expanded="true" signature="646:679" ph="UPDATE users... " />
+            <marker date="1517284385689" expanded="true" signature="646:708" ph="UPDATE users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/handlers/ajax/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/nowPlayingBar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-715">
+          <caret line="255" column="0" lean-forward="true" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
+          <folding>
+            <marker date="1517238766985" expanded="true" signature="74:119" ph="SELECT id FR... songs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/navBarContainer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/includedFiles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <marker date="1517210081484" expanded="true" signature="183:228" ph="SELECT * FRO... albums" />
+            <marker date="1517210081484" expanded="true" signature="325:714" ph="..." />
+            <marker date="1517210081484" expanded="true" signature="454:686" ph="..." />
+            <marker date="1517210081484" expanded="true" signature="576:655" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/handlers/ajax/addToPlaylist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="14" column="109" lean-forward="true" selection-start-line="14" selection-start-column="109" selection-end-line="14" selection-end-column="109" />
+          <folding>
+            <marker date="1517276232150" expanded="true" signature="241:339" ph="SELECT MAX(p... playlistSongs" />
+            <marker date="1517276232150" expanded="true" signature="460:533" ph="INSERT INTO playlistSongs... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/handlers/ajax/removeFromPlaylist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/handlers/ajax/createPlaylist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Notes/Spotify_Clone_AJAX.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="514" column="32" lean-forward="true" selection-start-line="514" selection-start-column="32" selection-end-line="514" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/handlers/ajax/deletePlaylist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1517270965849" expanded="true" signature="150:196" ph="DELETE FROM playlists... " />
+            <marker date="1517270965849" expanded="true" signature="238:296" ph="DELETE FROM playlistsongs... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="267" column="100" lean-forward="true" selection-start-line="267" selection-start-column="100" selection-end-line="267" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/classes/Constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="10" column="93" lean-forward="false" selection-start-line="10" selection-start-column="93" selection-end-line="10" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/classes/Album.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <marker date="1517181397371" expanded="true" signature="366:398" ph="SELECT * FRO... albums" />
+            <marker date="1517181397371" expanded="true" signature="1043:1078" ph="SELECT id FR... songs" />
+            <marker date="1517181397371" expanded="true" signature="1043:1079" ph="SELECT * FRO... songs" />
+            <marker date="1517181397371" expanded="true" signature="1216:1250" ph="SELECT id FR... songs" />
+            <marker date="1517181397371" expanded="true" signature="1216:1251" ph="SELECT id FR... songs" />
+            <marker date="1517181397371" expanded="true" signature="1216:1284" ph="SELECT id FR... songs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/classes/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1517280536652" expanded="true" signature="418:476" ph="SELECT email... users" />
+            <marker date="1517280536652" expanded="true" signature="646:738" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/classes/Playlist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <marker date="1517274306942" expanded="true" signature="323:365" ph="SELECT * FRO... playlists" />
+            <marker date="1517274306942" expanded="true" signature="893:956" ph="SELECT songI... playlistSongs" />
+            <marker date="1517274306942" expanded="true" signature="1086:1174" ph="SELECT songI... playlistSongs" />
+            <marker date="1517274306942" expanded="true" signature="1474:1528" ph="..." />
+            <marker date="1517274306942" expanded="true" signature="1568:1624" ph="SELECT id, n... playlists" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/classes/Song.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <marker date="1517205604439" expanded="true" signature="429:460" ph="SELECT * FRO... songs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/classes/Artist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <marker date="1517238215238" expanded="true" signature="384:420" ph="SELECT name artists" />
+            <marker date="1517238215238" expanded="true" signature="604:669" ph="SELECT id FR... songs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Notes/Spotify_Clone.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="662" column="0" lean-forward="true" selection-start-line="662" selection-start-column="0" selection-end-line="662" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

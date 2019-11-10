@@ -1,0 +1,177 @@
+{% extends "templates/main.twig" %}
+
+{% block content %}
+    <div class="overlay">
+        <div class="line-scale">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <header id="home" data-stellar-background-ratio="1.2">
+        <h1>Revolutionize Your Music</h1>
+        <a href="#music" class="arrow-link hvr-sweep-to-bottom hvr-icon-hang"><i class="fas fa-arrow-down hvr-icon"></i></a>
+    </header>
+
+    <section id="music" class="section">
+        <div class="container">
+            <h1 class="section-h1">Sample Beats</h1>
+            <div class="table-responsive">
+                <table class="table table-dark">
+                    <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Duration</th>
+                        <th scope="col">Price</th>
+                        <th scope="col"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        {% include 'home/partials/songs.twig' with {songs: songs} %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="progress-container">
+                <span class="start-time">0:00</span>
+                <div class="progress-bar1"><div class="progress1"></div></div>
+                <span class="end-time">0:00</span>
+            </div>
+            <div class="audio-controls">
+                <div class="playing">Now Playing: <span id="now-playing"></span></div>
+                <div class="buttons">
+                    <i class="fas fa-step-backward icon-hover"></i>
+                    <i class="far fa-play-circle icon-hover" id="play"></i>
+                    <i class="far fa-pause-circle icon-hover" id="pause"></i>
+                    <i class="fas fa-step-forward icon-hover"></i>
+                </div>
+                <div class="volume">
+                    <i class="fas fa-volume-up icon-hover"></i>
+                    <div class='volume-bar1'><div class="volume1"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-photo section-photo-1" data-stellar-background-ratio="1.2"></section>
+    <section id="services" class="section service">
+        <div class="container">
+            <h1 class="section-h1">My Services</h1>
+            <p class="text-center mt-4"><img src="/THBeats/public/img/mixing-icon3.png" alt="Mixing Icon" style="max-width: 150px;"></p>
+            <div class="row mt-5">
+                <div class="col-lg-6 col-md-12">
+                    <h3 class="text-center">Mixing & Mastering</h3>
+                    <p class="my-2">If you want to be taken serious you need to be professional. And nothing says Professional like a quality professional Mixed & Mastered recording. Record Labels and A&R's love to see this, It shows that you care about your craft and you do things the right way to succeed.</p>
+
+                    <p class="my-2">A Professionally Mixed & Mastered recording will make sure you will be able to compete and stand out against all popular music on today's radio. Everything from clarity to loudness. You will also have better chances of DJ's wanting to play your record along with the newest hits.</p>
+
+                        <p class="my-2">Its simple. You look professional, you are competing with famous artists and your mix sounds amazing. People are more likely to show interest in you if your music doesn't sound like it was recorded in a bedroom. More Interest = More Activity, which = MORE SALES.</p>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex flex-wrap justify-content-around">
+                    <div class="mix-plan rounded hvr-sweep-to-right m-2">
+                        <h5>Standard Mix & Master</h5>
+                        <p>$126.00</p>
+                    </div>
+                    <div class="mix-plan rounded hvr-sweep-to-bottom m-2">
+                        <h5>Supreme Mix & Master</h5>
+                        <p>$175.00</p>
+                    </div>
+                    <div class="mix-plan rounded hvr-sweep-to-left m-2">
+                        <h5>Mastering</h5>
+                        <p>$50.00</p>
+                    </div>
+                    <div class="mix-plan rounded hvr-sweep-to-right m-2">
+                        <h5>Mastering for iTunes</h5>
+                        <p>$70.00</p>
+                    </div>
+                    <div class="mix-plan rounded hvr-sweep-to-top m-2">
+                        <h5>Revision Before Mastering</h5>
+                        <p>$25.00</p>
+                    </div>
+                    <div class="mix-plan rounded hvr-sweep-to-left m-2">
+                        <h5>Revision After Mastering</h5>
+                        <p>$50.00</p>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center"><a href="{{ path_for('service.index') }}" class="service-btn rounded hvr-sweep-to-bottom">Get Started</a></p>
+        </div>
+    </section>
+    <section class="section-photo section-photo-2" data-stellar-background-ratio="1.2"></section>
+
+<div id="contact">
+    <div class="container">
+        <h1 class="section-h1">Contact Me</h1>
+        {% if message %}
+            {{ message|raw }}
+        {% endif %}
+        <div class="contact-form row mt-5">
+            <div class="col-lg-6 col-sm-12 mb-5">
+                <p class="my-4">Feel free to contact me for additional information</p>
+                <a href="tel:773-585-2525" class="contact-info d-flex align-items-center hvr-sweep-to-right pl-2 mb-5">
+                    <i class="fas fa-phone mr-3"></i>
+                    <div>
+                        <h4 class="m-0">Phone:</h4>
+                        <p>(773) 585-2525</p>
+                    </div>
+                </a>
+                <a href="mailto:THBeats@gmail.com" class="contact-info d-flex align-items-center hvr-sweep-to-right pl-2 mb-5">
+                    <i class="fas fa-envelope mr-3"></i>
+                    <div>
+                        <h4 class="m-0">Email:</h4>
+                        <p>THBeats@gmail.com</p>
+                    </div>
+                </a>
+                <div class="contact-socials">
+                    <div>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <form action="{{ path_for('home.contact') }}" method="post">
+                    <input type="hidden" name="contact-submit" value="1">
+                    <div class="form-group">
+                        <label for="contact-name">Name</label>
+                        <input type="text" class="form-control" id="contact-name" placeholder="Enter name" name="contact-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email</label>
+                        <input type="email" class="form-control" id="contact-email" placeholder="Enter email" name="contact-email">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-subject">Subject</label>
+                        <input type="text" class="form-control" id="contact-subject" placeholder="Enter subject" name="contact-subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Message</label>
+                        <textarea class="form-control" id="contact-message" rows="5" placeholder="Enter Message"name="contact-message"></textarea>
+                    </div>
+                    <button type="submit" class="contact-btn hvr-rectangle-out">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <script>const songArray = {{ songArr|json_encode|raw}}</script>
+    <script src="/THBeats/public/js/jquery-2.0.2.js"></script>
+    <script src="/THBeats/public/js/jquery.stellar.js"></script>
+    <script src="/THBeats/public/js/audioPlayer.js"></script>
+    <script>
+        $(document).on('ready', function(){
+           if($(window).width() > 800) {
+               $.stellar();
+           }
+        });
+
+        $(window).on('load', function(){
+            $('.overlay').fadeOut(800);
+        });
+    </script>
+
+{% endblock %}

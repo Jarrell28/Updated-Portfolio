@@ -1,0 +1,32 @@
+{% extends 'admin/index.twig' %}
+
+
+
+{% block content %}
+    <h1>Edit Kit</h1>
+    <div class="row">
+        <form method="post" action="{{ path_for("admin.editKit", {id: kit.id}) }}" class="col-lg-8 col-md-12 col-sm-12" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="kit-title">Kit Title</label>
+                <input type="text" class="form-control" id="kit-title" name="kit-title" value="{{ kit.kit_title }}">
+            </div>
+            <div class="form-group">
+                <label for="kit-price">Kit Price</label>
+                <input type="text" class="form-control" id="kit-price" name="kit-price" value="{{ kit.kit_price }}">
+            </div>
+
+            <div class="form-group">
+                <label for="kit-description">Kit Description</label>
+                <textarea class="form-control" id="kit-description" name="kit-description">{{ kit.kit_description }}</textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="kit-file">Kit File</label>
+                <input type="file" class="form-control-file" id="kit-file" name="kit-file">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+{% endblock %}

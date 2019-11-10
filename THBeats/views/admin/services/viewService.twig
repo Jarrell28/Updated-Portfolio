@@ -1,0 +1,35 @@
+{% extends 'admin/index.twig' %}
+
+
+
+{% block content %}
+    <h1>View Service</h1>
+    <div class="row">
+        <form method="post" action="{{ path_for("admin.deleteService", {id: service.id}) }}" class="col-md-12 col-sm-12 col-lg-8" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="service-name">Name</label>
+                <input type="text" class="form-control" id="service-name" name="service-name" value="{{ service.name }}">
+            </div>
+            <div class="form-group">
+                <label for="service-email">Email</label>
+                <input type="text" class="form-control" id="service-email" name="service-email" value="{{ service.email }}">
+            </div>
+            <div class="form-group">
+                <label for="service-plan">Plan</label>
+                <input type="text" class="form-control" id="service-plan" name="service-plan" value="{{ service.plan }}">
+            </div>
+            <div class="form-group">
+                <label for="service-file">File</label>
+                <input type="text" class="form-control" id="service-file" name="service-file" value="{{ service.file }}">
+            </div>
+
+            <div class="form-group">
+                <label for="service-service">Message</label>
+                <textarea class="form-control" id="service-service" name="service-service" rows="10">{{ service.message }}</textarea>
+            </div>
+            <a href="/THBeats/public/serviceFiles/{{ service.file }}" download class="btn btn-primary">Download File</a>
+            <button type="submit" class="btn btn-danger">Delete</button>
+        </form>
+    </div>
+
+{% endblock %}

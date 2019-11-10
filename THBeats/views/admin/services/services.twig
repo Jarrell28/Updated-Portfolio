@@ -1,0 +1,39 @@
+{% extends 'admin/index.twig' %}
+
+
+{% block content %}
+    <h1>Services</h1>
+    {% if message %}
+        {{ message|raw }}
+    {% endif %}
+
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Plan</th>
+                <th scope="col">Message</th>
+                <th></th>
+                <th></th>
+            </tr>
+            </thead>
+
+            <tbody>
+            {% for service in services %}
+                <tr>
+                    <th scope="row">{{ loop.index }}</th>
+                    <td>{{ service.name }}</td>
+                    <td>{{ service.email }}</td>
+                    <td>{{ service.plan }}</td>
+                    <td>{{ service.message|length > 50 ? service.message|slice(0, 50) ~ '...' : service.message }}</td>
+                    <td><a href="{{ path_for("admin.viewService", {'id': service.id}) }}" class="btn btn-info btn-sm">View</a></td>
+                    <td><a href="{{ path_for("admin.deleteService", {'id': service.id}) }}" class="btn btn-danger btn-sm">Delete</a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

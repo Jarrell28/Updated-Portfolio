@@ -1,0 +1,40 @@
+{% extends 'admin/index.twig' %}
+
+
+{% block content %}
+    <h1>Kits</h1>
+    <a href="{{ path_for("admin.addKitView") }}" class="btn btn-primary my-2">Add new Kit</a>
+    {% if message %}
+        {{ message|raw }}
+    {% endif %}
+
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Title</th>
+                <th scope="col">Price</th>
+                <th scope="col">Image file</th>
+                <th scope="col">Description</th>
+                <th></th>
+                <th></th>
+            </tr>
+            </thead>
+
+            <tbody>
+            {% for kit in kits %}
+                <tr>
+                    <th scope="row">{{ loop.index }}</th>
+                    <td>{{ kit.kit_title }}</td>
+                    <td>${{ kit.kit_price }}</td>
+                    <td>{{ kit.kit_image }}</td>
+                    <td>{{ kit.kit_description|length > 50 ? kit.kit_description|slice(0, 50) ~ '...' : kit.kit_description }}</td>
+                    <td><a href="{{ path_for("admin.editKitView", {'id': kit.id}) }}" class="btn btn-warning btn-sm">Edit</a></td>
+                    <td><a href="{{ path_for("admin.deleteKit", {'id': kit.id}) }}" class="btn btn-danger btn-sm">Delete</a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

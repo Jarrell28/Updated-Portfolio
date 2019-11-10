@@ -1,0 +1,27 @@
+{% extends 'admin/index.twig' %}
+
+
+
+{% block content %}
+    <h1>View Message</h1>
+    <div class="row">
+        <form method="post" action="{{ path_for("admin.deleteMessage", {id: message.id}) }}" class="col-md-12 col-sm-12 col-lg-8" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="message-email">Email</label>
+                <input type="text" class="form-control" id="message-email" name="message-email" value="{{ message.email }}">
+            </div>
+            <div class="form-group">
+                <label for="message-subject">Subject</label>
+                <input type="text" class="form-control" id="message-subject" name="message-subject" value="{{ message.subject }}">
+            </div>
+
+            <div class="form-group">
+                <label for="message-message">Message</label>
+                <textarea class="form-control" id="message-message" name="message-message" rows="10">{{ message.message }}</textarea>
+            </div>
+
+            <button type="submit" class="btn btn-danger">Delete</button>
+        </form>
+    </div>
+
+{% endblock %}

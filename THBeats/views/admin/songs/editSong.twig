@@ -1,0 +1,32 @@
+{% extends 'admin/index.twig' %}
+
+
+
+{% block content %}
+    <h1>Edit Song</h1>
+    <div class="row">
+        <form method="post" action="{{ path_for("admin.editSong", {id: song.id}) }}" class="col-md-6 col-sm-12" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="song-title">Song Title</label>
+                <input type="text" class="form-control" id="song-title" name="song-title" value="{{ song.Title }}">
+            </div>
+            <div class="form-group">
+                <label for="song-price">Song Price</label>
+                <input type="text" class="form-control" id="song-price" name="song-price" value="{{ song.Price }}">
+            </div>
+
+            <div class="form-group">
+                <label for="song-duration">Song Duration</label>
+                <input type="text" class="form-control" id="song-duration" name="song-duration" value="{{ song.Duration }}">
+            </div>
+
+            <div class="form-group">
+                <label for="song-file">Song File</label>
+                <input type="file" class="form-control-file" id="song-file" name="song-file">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+{% endblock %}

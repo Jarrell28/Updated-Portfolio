@@ -1,0 +1,38 @@
+{% extends 'admin/index.twig' %}
+
+
+{% block content %}
+    <h1>Songs</h1>
+    <a href="{{ path_for("admin.addSongView") }}" class="btn btn-primary my-2">Add new Song</a>
+    {% if message %}
+        {{ message|raw }}
+    {% endif %}
+
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Song</th>
+                <th scope="col">Duration</th>
+                <th scope="col">Price</th>
+                <th></th>
+                <th></th>
+            </tr>
+            </thead>
+
+            <tbody>
+            {% for song in songs %}
+                <tr>
+                    <th scope="row">{{ loop.index }}</th>
+                    <td>{{ song.Title }}</td>
+                    <td>{{ song.Duration }}</td>
+                    <td>${{ song.Price }}</td>
+                    <td><a href="{{ path_for("admin.editSongView", {'id': song.id}) }}" class="btn btn-warning btn-sm">Edit</a></td>
+                    <td><a href="{{ path_for("admin.deleteSong", {'id': song.id}) }}" class="btn btn-danger btn-sm">Delete</a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

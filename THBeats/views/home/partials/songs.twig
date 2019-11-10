@@ -1,0 +1,14 @@
+
+{% for song in songs %}
+    <tr data-song='{{ song.Title }}'>
+    <th scope="row" class="text-center"><i class="far fa-play-circle icon-hover" onclick></i></th>
+    <td>{{ song.Title }}</td>
+    <td>{{ song.Duration }}</td>
+    <td>$ {{ song.Price }}</td>
+    {% if storage.inStorage('cart', song.id) %}
+    <td><i class="fas fa-check icon-hover" data-cartId={{ song.id }}></i></td>
+    {% else %}
+    <td><i class="fas fa-shopping-cart icon-hover" onclick="addToStorage('cart', {{ song.id }})" data-cartId={{ song.id }} ></i></td>
+        {% endif %}
+</tr>
+{% endfor %}

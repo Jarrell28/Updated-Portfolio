@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TH Beats Admin</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/css/style.css">
+
+
+</head>
+<body class="h-100" style="overflow: hidden">
+<!-- As a link -->
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="/THBeats/public">TH Beats</a>
+</nav>
+<div class="d-flex h-100">
+    <div class="w-25 bg-light" style="max-width: 300px; flex: none;">
+        <ul class="d-flex flex-column p-4 nav">
+            <li class="pb-2 nav-item"><a class="text-dark nav-link" href="{{ path_for('admin') }}">Dashboard</a></li>
+            <li class="pb-2 nav-item"><a class="text-dark nav-link" href="{{ path_for('admin.songs') }}">Songs</a></li>
+            <li class="pb-2 nav-item"><a class="text-dark nav-link" href="{{ path_for('admin.kits') }}">Kits</a></li>
+            <li class="pb-2 nav-item"><a class="text-dark nav-link" href="{{ path_for('admin.messages') }}">Messages</a></li>
+            <li class="pb-2 nav-item"><a class="text-dark nav-link" href="{{ path_for('admin.services') }}">Services</a></li>
+            <li class="pb-2 nav-item"><a class="text-dark nav-link" href="{{ path_for('admin.orders') }}">Orders</a></li>
+
+        </ul>
+    </div>
+    <div class="container-fluid p-3" style="max-height: 90vh; overflow: auto">
+        {% block content %}{% endblock %}
+    </div>
+
+</div>
+
+</body>
+</html>

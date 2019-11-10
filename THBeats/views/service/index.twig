@@ -1,0 +1,109 @@
+{% extends 'templates/main.twig' %}
+
+{% block content %}
+    <div class="service-page pt-5">
+        <div class="container">
+            <h1 class="mb-3">Get Started</h1>
+            {% if message %}
+                {{ message|raw }}
+            {% endif %}
+            <form action="{{ path_for('service.index') }}" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="service" value="1">
+                <h4>1. Select a plan(click to view details)</h4>
+                <div class="service mb-3">
+                    <input type="radio" name="service-plan" id="standard" value="standard">
+                    <label for="standard" class="mix-plan rounded hvr-sweep-to-right m-2" data-plan="standard">
+                        <h5>Standard Mix & Master</h5>
+                        <p>$126.00</p>
+                    </label>
+                    <input type="radio" name="service-plan" id="supreme" value="supreme">
+                    <label for="supreme" class="mix-plan rounded hvr-sweep-to-bottom m-2" data-plan="supreme">
+                        <h5>Supreme Mix & Master</h5>
+                        <p>$175.00</p>
+                    </label>
+                    <input type="radio" name="service-plan" id="master" value="master">
+                    <label for="master" class="mix-plan rounded hvr-sweep-to-left m-2" data-plan="master">
+                        <h5>Mastering</h5>
+                        <p>$50.00</p>
+                    </label>
+                    <input type="radio" name="service-plan" id="mfi" value="mfi">
+                    <label for="mfi" class="mix-plan rounded hvr-sweep-to-right m-2" data-plan="mfi">
+                        <h5>Mastering for iTunes</h5>
+                        <p>$70.00</p>
+                    </label>
+                    <input type="radio" name="service-plan" id="rbm" value="rbm">
+                    <label for="rbm" class="mix-plan rounded hvr-sweep-to-top m-2" data-plan="rbm">
+                        <h5>Revision Before Mastering</h5>
+                        <p>$25.00</p>
+                    </label>
+                    <input type="radio" name="service-plan" id="ram" value="ram">
+                    <label for="ram" class="mix-plan rounded hvr-sweep-to-left m-2" data-plan="ram">
+                        <h5>Revision After Mastering</h5>
+                        <p>$50.00</p>
+                    </label>
+                </div>
+    
+                <div class="standard plan-details">
+                    <h5>Standard Mix & Master</h5>
+                    <p>The Standard Mix & Master Package provides everything you need to distribute your songs. This Package provides basic quality and is recommended is for smaller projects such as demos and non profit recordings.</p>
+                </div>
+    
+                <div class="supreme plan-details">
+                    <h5>Supreme Mix & Master</h5>
+                    <p>The Supreme Mix & Master Package provides everything you need to distribute your songs pubically. This Package provides maximum quality using the best Analog equipment and digital high end plugins. This package is recommended is for larger projects such as singles and Albums. See Product Info for detailed information.</p>
+                </div>
+    
+                <div class="master plan-details">
+                    <h5>Mastering</h5>
+                    <p>Mastering is adding sparkle and shine to your music. In a very basic sense, when you master your album, you're making sure that song one doesn't blow out the speakers while song two is barely audible - in other words, you want the levels of the songs to be similar and you want a general sense of cohesiveness to your recording, It also add the finishing touches to the song to bring it to its highest poetntial, making as loud as possible without distorting and making the song sound big and strong while sounding wider and clearer to emerge you in its sound. No song should be without mastering!</p>
+                </div>
+                <div class="mfi plan-details">
+                    <h5>Mastering for iTunes</h5>
+                    <p>Having your song Mastered for iTunes lets gives you a product that has been mastered and quality-tested for publication in iTunes. It lets your listeners hear your music uncompressed and exactly the way it sounds in the Mastering studio before export, this means your listeners will be able to stream and download your songs at the absolute highest quality possible on iTunes. Not only will your songs sound great but you will also receive the "Mastered for iTunes" badge (seen above) in iTunes which makes your music stand out by letting the world know that they will be purchasing the Highest possible quality copy of your record.</p>
+                </div>
+                <div class="rbm plan-details">
+                    <h5>Revision Before Mastering</h5>
+                    <p>A Revision allows you to make additional changes to your Mix before Mastering.</p>
+                </div>
+                <div class="ram plan-details">
+                    <h5>Revision After Mastering</h5>
+                    <p>A Revision allows you to make additional changes to your Mix After Mastering.</p>
+                </div>
+
+                <h4 class="mt-5">2. Upload Audio File</h4>
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="service-file" name="service-file" required>
+                    <label class="custom-file-label" for="service-file">Choose file</label>
+                </div>
+    
+                <h4 class="mt-5">3. Fill out the form below</h4>
+                <input type="hidden" name="service-submit" value="1">
+                <div class="form-group">
+                    <label for="service-name">Name</label>
+                    <input type="text" class="form-control" id="service-name" placeholder="Enter name" name="service-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="service-email">Email</label>
+                    <input type="email" class="form-control" id="service-email" placeholder="Enter email" name="service-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="service-message">Message</label>
+                    <textarea class="form-control" id="service-message" rows="5" placeholder="Enter Message" name="service-message" required></textarea>
+                </div>
+                <button type="submit" class="service-btn hvr-rectangle-out">Submit</button>
+                
+            </form>
+        </div>
+    </div>
+
+    <script>
+        $('.mix-plan').on('click', function(){
+            $('.mix-plan').removeClass('active-plan');
+            $(this).addClass('active-plan');
+
+            const details = $(this).data('plan');
+            $('.plan-details').hide();
+            $('.' + details).fadeIn();
+        })
+    </script>
+{% endblock %}

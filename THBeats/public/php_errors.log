@@ -1,0 +1,164 @@
+[23-Dec-2018 11:50:20 America/Chicago] PHP Warning:  require(../../vendor/autoload.php): failed to open stream: No such file or directory in C:\myProjects\Beats2\app\bootstrap\app.php on line 5
+[23-Dec-2018 11:50:20 America/Chicago] PHP Fatal error:  require(): Failed opening required '../../vendor/autoload.php' (include_path='.;C:\Program Files (x86)\EasyPHP-Devserver-17\eds-binaries\php\php713vc14x86x181027195535\ext') in C:\myProjects\Beats2\app\bootstrap\app.php on line 5
+[23-Dec-2018 18:37:19 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 96
+[23-Dec-2018 18:38:17 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 96
+[23-Dec-2018 18:38:17 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 100
+[23-Dec-2018 18:38:54 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 96
+[23-Dec-2018 19:26:49 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 96
+[23-Dec-2018 19:26:49 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 100
+[23-Dec-2018 19:27:40 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 96
+[23-Dec-2018 21:35:53 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 96
+[23-Dec-2018 21:35:53 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 100
+[25-Dec-2018 18:39:23 America/Chicago] PHP Recoverable fatal error:  Object of class Slim\Container could not be converted to string in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 50
+[25-Dec-2018 18:42:10 America/Chicago] PHP Notice:  Undefined index: song-title in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 51
+[25-Dec-2018 18:42:10 America/Chicago] PHP Notice:  Undefined index: song-price in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 52
+[25-Dec-2018 18:50:12 America/Chicago] PHP Warning:  require_once(../config.php): failed to open stream: No such file or directory in C:\myProjects\Beats2\app\bootstrap\app.php on line 3
+[25-Dec-2018 18:50:12 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../config.php' (include_path='.;C:\Program Files (x86)\EasyPHP-Devserver-17\eds-binaries\php\php713vc14x86x181027195535\ext') in C:\myProjects\Beats2\app\bootstrap\app.php on line 3
+[25-Dec-2018 18:50:38 America/Chicago] PHP Notice:  Use of undefined constant APPROOT - assumed 'APPROOT' in C:\myProjects\Beats2\app\config.php on line 4
+[25-Dec-2018 19:11:30 America/Chicago] PHP Recoverable fatal error:  Object of class Slim\Http\UploadedFile could not be converted to string in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 58
+[25-Dec-2018 19:14:11 America/Chicago] PHP Warning:  rename(file,C:\myProjects\Beats2\public\music\): The system cannot find the file specified. (code: 2) in C:\myProjects\Beats2\vendor\slim\slim\Slim\Http\UploadedFile.php on line 250
+[25-Dec-2018 19:14:42 America/Chicago] PHP Warning:  rename(file,C:\myProjects\Beats2\public\music\): The system cannot find the file specified. (code: 2) in C:\myProjects\Beats2\vendor\slim\slim\Slim\Http\UploadedFile.php on line 250
+[25-Dec-2018 19:14:54 America/Chicago] PHP Warning:  rename(file,C:\myProjects\Beats2\public\music\file): The system cannot find the file specified. (code: 2) in C:\myProjects\Beats2\vendor\slim\slim\Slim\Http\UploadedFile.php on line 250
+[25-Dec-2018 19:15:10 America/Chicago] PHP Warning:  rename(file,C:\myProjects\Beats2\public\music\file): The system cannot find the file specified. (code: 2) in C:\myProjects\Beats2\vendor\slim\slim\Slim\Http\UploadedFile.php on line 250
+[25-Dec-2018 19:22:12 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 55
+[25-Dec-2018 19:24:20 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 55
+[25-Dec-2018 19:40:39 America/Chicago] PHP Notice:  Undefined index: song-duration in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 53
+[25-Dec-2018 20:00:44 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 42
+[25-Dec-2018 20:00:50 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 42
+[25-Dec-2018 20:00:50 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 42
+[25-Dec-2018 20:02:04 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 42
+[25-Dec-2018 20:02:28 America/Chicago] PHP Notice:  Undefined offset: 0 in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 45
+[25-Dec-2018 20:02:37 America/Chicago] PHP Notice:  Undefined index: success in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 45
+[25-Dec-2018 20:07:07 America/Chicago] PHP Notice:  Undefined index: Message in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 71
+[25-Dec-2018 20:16:43 America/Chicago] PHP Notice:  Undefined index: Message in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 71
+[25-Dec-2018 20:17:18 America/Chicago] PHP Notice:  Undefined index: Message in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 71
+[25-Dec-2018 20:24:32 America/Chicago] PHP Notice:  Undefined index: Message in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 71
+[25-Dec-2018 20:27:39 America/Chicago] PHP Notice:  Undefined index: Message in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 45
+[25-Dec-2018 20:28:09 America/Chicago] PHP Notice:  Undefined variable: message in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 47
+[25-Dec-2018 20:28:21 America/Chicago] PHP Notice:  Undefined variable: message in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 47
+[25-Dec-2018 20:28:21 America/Chicago] PHP Notice:  Undefined variable: message in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 47
+[25-Dec-2018 20:28:22 America/Chicago] PHP Notice:  Undefined variable: message in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 47
+[25-Dec-2018 20:49:43 America/Chicago] PHP Warning:  unlink(C:\myProjects\Beats2\public\music\[{&quot;song_file&quot;:&quot;HY08-T1151-1.pdf&quot;}]): No such file or directory in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 83
+[25-Dec-2018 20:50:05 America/Chicago] PHP Notice:  Undefined index: song_file in C:\myProjects\Beats2\vendor\illuminate\support\Collection.php on line 1909
+[25-Dec-2018 20:50:05 America/Chicago] PHP Warning:  unlink(C:\myProjects\Beats2\public\music\): Permission denied in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 83
+[25-Dec-2018 20:50:25 America/Chicago] PHP Warning:  unlink(C:\myProjects\Beats2\public\music\[{&quot;song_file&quot;:&quot;HY08-T1151-1.pdf&quot;}]): No such file or directory in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 83
+[25-Dec-2018 20:50:34 America/Chicago] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 83
+[25-Dec-2018 20:50:48 America/Chicago] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 83
+[28-Dec-2018 19:23:28 America/Chicago] PHP Notice:  Undefined index: song-file in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 95
+[28-Dec-2018 19:49:38 America/Chicago] PHP Warning:  unlink(C:\myProjects\Beats2\public\music\Jealousy.mp3): No such file or directory in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 96
+[28-Dec-2018 19:54:03 America/Chicago] PHP Warning:  unlink(C:\myProjects\Beats2\public\music\Celleb - Cool &amp; Laid Back.mp3): No such file or directory in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 96
+[28-Dec-2018 19:54:29 America/Chicago] PHP Warning:  unlink(C:\myProjects\Beats2\public\music\Celleb - Cool &amp; Laid Back.mp3): No such file or directory in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 96
+[29-Dec-2018 13:46:08 America/Chicago] PHP Notice:  Undefined index: kit-description in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 183
+[29-Dec-2018 13:46:08 America/Chicago] PHP Notice:  Undefined index: kit-image in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 187
+[29-Dec-2018 13:47:15 America/Chicago] PHP Notice:  Undefined index: kit-description in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 183
+[29-Dec-2018 13:47:15 America/Chicago] PHP Notice:  Undefined index: kit-image in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 187
+[29-Dec-2018 13:48:25 America/Chicago] PHP Notice:  Undefined index: kit-image in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 187
+[29-Dec-2018 13:48:34 America/Chicago] PHP Notice:  Undefined index: kit-image in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 187
+[29-Dec-2018 13:48:58 America/Chicago] PHP Notice:  Undefined index: kit-image in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 187
+[29-Dec-2018 13:49:08 America/Chicago] PHP Notice:  Undefined index: kit-image in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 187
+[29-Dec-2018 13:59:02 America/Chicago] PHP Notice:  Undefined index: kit-image in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 189
+[29-Dec-2018 13:59:07 America/Chicago] PHP Notice:  Undefined index: kit-image in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 189
+[29-Dec-2018 14:00:30 America/Chicago] PHP Warning:  unlink(C:\myProjects\Beats2\public\music\account-delete-address.jpg): No such file or directory in C:\myProjects\Beats2\app\Controllers\AdminController.php on line 217
+[31-Dec-2018 15:16:42 America/Chicago] PHP Notice:  Undefined index: contact-name in C:\myProjects\Beats2\app\Controllers\HomeController.php on line 42
+[31-Dec-2018 15:16:42 America/Chicago] PHP Notice:  Undefined index: contact-email in C:\myProjects\Beats2\app\Controllers\HomeController.php on line 43
+[31-Dec-2018 15:16:42 America/Chicago] PHP Notice:  Undefined index: contact-subject in C:\myProjects\Beats2\app\Controllers\HomeController.php on line 44
+[31-Dec-2018 15:16:42 America/Chicago] PHP Notice:  Undefined index: contact-message in C:\myProjects\Beats2\app\Controllers\HomeController.php on line 45
+[31-Dec-2018 15:18:05 America/Chicago] PHP Notice:  Undefined index: contact-name in C:\myProjects\Beats2\app\Controllers\HomeController.php on line 42
+[31-Dec-2018 15:18:05 America/Chicago] PHP Notice:  Undefined index: contact-email in C:\myProjects\Beats2\app\Controllers\HomeController.php on line 43
+[31-Dec-2018 15:18:05 America/Chicago] PHP Notice:  Undefined index: contact-subject in C:\myProjects\Beats2\app\Controllers\HomeController.php on line 44
+[31-Dec-2018 15:18:05 America/Chicago] PHP Notice:  Undefined index: contact-message in C:\myProjects\Beats2\app\Controllers\HomeController.php on line 45
+[31-Dec-2018 15:18:49 America/Chicago] PHP Notice:  Undefined index: contact-name in C:\myProjects\Beats2\app\Controllers\HomeController.php on line 42
+[31-Dec-2018 15:18:49 America/Chicago] PHP Notice:  Undefined index: contact-email in C:\myProjects\Beats2\app\Controllers\HomeController.php on line 43
+[31-Dec-2018 15:18:49 America/Chicago] PHP Notice:  Undefined index: contact-subject in C:\myProjects\Beats2\app\Controllers\HomeController.php on line 44
+[31-Dec-2018 15:18:49 America/Chicago] PHP Notice:  Undefined index: contact-message in C:\myProjects\Beats2\app\Controllers\HomeController.php on line 45
+[31-Dec-2018 22:32:51 America/Chicago] PHP Notice:  Undefined index: service-file in C:\myProjects\Beats2\app\Controllers\ServiceController.php on line 46
+[31-Dec-2018 22:32:51 America/Chicago] PHP Notice:  Undefined index: service-file in C:\myProjects\Beats2\app\Controllers\ServiceController.php on line 47
+[31-Dec-2018 22:33:06 America/Chicago] PHP Notice:  Undefined index: service-file in C:\myProjects\Beats2\app\Controllers\ServiceController.php on line 46
+[31-Dec-2018 22:33:06 America/Chicago] PHP Notice:  Undefined index: service-file in C:\myProjects\Beats2\app\Controllers\ServiceController.php on line 47
+[31-Dec-2018 22:33:23 America/Chicago] PHP Notice:  Undefined index: service-file in C:\myProjects\Beats2\app\Controllers\ServiceController.php on line 46
+[31-Dec-2018 22:33:23 America/Chicago] PHP Notice:  Undefined index: service-file in C:\myProjects\Beats2\app\Controllers\ServiceController.php on line 47
+[31-Dec-2018 22:34:57 America/Chicago] PHP Notice:  Undefined index: service-file in C:\myProjects\Beats2\app\Controllers\ServiceController.php on line 46
+[31-Dec-2018 22:34:57 America/Chicago] PHP Notice:  Undefined index: service-file in C:\myProjects\Beats2\app\Controllers\ServiceController.php on line 47
+[31-Dec-2018 22:38:40 America/Chicago] PHP Notice:  Undefined index: service-file in C:\myProjects\Beats2\app\Controllers\ServiceController.php on line 46
+[31-Dec-2018 22:38:40 America/Chicago] PHP Notice:  Undefined index: service-file in C:\myProjects\Beats2\app\Controllers\ServiceController.php on line 47
+[31-Dec-2018 22:41:08 America/Chicago] PHP Notice:  Undefined index: service-file in C:\myProjects\Beats2\app\Controllers\ServiceController.php on line 46
+[31-Dec-2018 22:41:08 America/Chicago] PHP Notice:  Undefined index: service-file in C:\myProjects\Beats2\app\Controllers\ServiceController.php on line 47
+[31-Dec-2018 22:41:18 America/Chicago] PHP Notice:  Undefined index: service-file in C:\myProjects\Beats2\app\Controllers\ServiceController.php on line 46
+[31-Dec-2018 22:41:18 America/Chicago] PHP Notice:  Undefined index: service-file in C:\myProjects\Beats2\app\Controllers\ServiceController.php on line 47
+[31-Dec-2018 22:41:57 America/Chicago] PHP Notice:  Undefined index: service-file in C:\myProjects\Beats2\app\Controllers\ServiceController.php on line 46
+[31-Dec-2018 22:41:57 America/Chicago] PHP Notice:  Undefined index: service-file in C:\myProjects\Beats2\app\Controllers\ServiceController.php on line 47
+[05-Jan-2019 18:19:22 America/Chicago] PHP Warning:  Illegal offset type in isset or empty in C:\myProjects\Beats2\app\Controllers\SessionStorage.php on line 25
+[05-Jan-2019 18:21:30 America/Chicago] PHP Notice:  Undefined offset: 0 in C:\myProjects\Beats2\app\Controllers\SessionStorage.php on line 25
+[05-Jan-2019 18:21:30 America/Chicago] PHP Notice:  Undefined offset: 1 in C:\myProjects\Beats2\app\Controllers\SessionStorage.php on line 26
+[05-Jan-2019 18:22:31 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\app\Controllers\SessionStorage.php on line 29
+[05-Jan-2019 18:28:55 America/Chicago] PHP Warning:  Illegal offset type in isset or empty in C:\myProjects\Beats2\app\Controllers\SessionStorage.php on line 37
+[05-Jan-2019 18:29:13 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\app\Controllers\SessionStorage.php on line 41
+[05-Jan-2019 18:30:29 America/Chicago] PHP Notice:  Undefined offset: 0 in C:\myProjects\Beats2\app\Controllers\SessionStorage.php on line 41
+[06-Jan-2019 10:16:14 America/Chicago] PHP Deprecated:  Non-static method App\Controllers\SessionStorage::getStorage() should not be called statically in C:\myProjects\Beats2\app\Controllers\CartController.php on line 25
+[06-Jan-2019 10:27:10 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\app\Controllers\CartController.php on line 30
+[06-Jan-2019 10:29:29 America/Chicago] PHP Notice:  Undefined property: Illuminate\Database\Query\Builder::$Price in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:29:29 America/Chicago] PHP Notice:  Undefined property: Illuminate\Database\Query\Builder::$Price in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:29:29 America/Chicago] PHP Notice:  Undefined property: Illuminate\Database\Query\Builder::$Price in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:29:29 America/Chicago] PHP Notice:  Undefined property: Illuminate\Database\Query\Builder::$Price in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:29:29 America/Chicago] PHP Notice:  Undefined property: Illuminate\Database\Query\Builder::$Price in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:30:08 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:30:08 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:30:08 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:30:08 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:30:25 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:30:25 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:30:25 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:30:25 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:30:31 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:30:31 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:30:31 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:30:31 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:30:56 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:30:56 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:30:56 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:30:56 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 33
+[06-Jan-2019 10:35:02 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 34
+[06-Jan-2019 10:35:02 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 34
+[06-Jan-2019 10:35:02 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 34
+[06-Jan-2019 10:35:02 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\myProjects\Beats2\app\Controllers\CartController.php on line 34
+[06-Jan-2019 10:48:18 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 87
+[06-Jan-2019 10:48:25 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 87
+[06-Jan-2019 10:48:27 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 87
+[06-Jan-2019 10:49:27 America/Chicago] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 92
+[07-Jan-2019 20:30:57 America/Chicago] PHP Recoverable fatal error:  Object of class App\Controllers\SessionStorage could not be converted to string in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 40
+[07-Jan-2019 20:31:06 America/Chicago] PHP Recoverable fatal error:  Object of class App\Controllers\SessionStorage could not be converted to string in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 40
+[07-Jan-2019 20:33:28 America/Chicago] PHP Notice:  Array to string conversion in C:\myProjects\Beats2\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code on line 40
+[07-Jan-2019 20:34:57 America/Chicago] PHP Notice:  Undefined index: cart in C:\myProjects\Beats2\app\Controllers\CartController.php on line 29
+[07-Jan-2019 20:36:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\CartController.php on line 34
+[07-Jan-2019 20:38:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\CartController.php on line 34
+[07-Jan-2019 20:38:11 America/Chicago] PHP Notice:  Undefined index: cart in C:\myProjects\Beats2\app\Controllers\SessionStorage.php on line 51
+[07-Jan-2019 20:39:14 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\CartController.php on line 34
+[07-Jan-2019 20:40:24 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\CartController.php on line 34
+[07-Jan-2019 20:40:34 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\CartController.php on line 34
+[12-Jan-2019 12:46:08 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\CartController.php on line 34
+[12-Jan-2019 14:38:06 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\ConfirmController.php on line 34
+[12-Jan-2019 14:43:17 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\ConfirmController.php on line 34
+[12-Jan-2019 14:43:39 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\ConfirmController.php on line 34
+[12-Jan-2019 14:49:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\CartController.php on line 34
+[12-Jan-2019 15:10:36 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\CartController.php on line 34
+[13-Jan-2019 22:07:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\CartController.php on line 34
+[13-Jan-2019 22:50:09 America/Chicago] PHP Notice:  Undefined index: email in C:\myProjects\Beats2\app\Controllers\CartController.php on line 45
+[13-Jan-2019 22:50:57 America/Chicago] PHP Notice:  Undefined index: email in C:\myProjects\Beats2\app\Controllers\CartController.php on line 46
+[13-Jan-2019 22:52:08 America/Chicago] PHP Notice:  Undefined index: email in C:\myProjects\Beats2\app\Controllers\CartController.php on line 46
+[13-Jan-2019 22:52:24 America/Chicago] PHP Notice:  Undefined index: email in C:\myProjects\Beats2\app\Controllers\CartController.php on line 46
+[13-Jan-2019 23:11:15 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\ConfirmController.php on line 36
+[13-Jan-2019 23:11:15 America/Chicago] PHP Notice:  Undefined index: amt in C:\myProjects\Beats2\app\Controllers\ConfirmController.php on line 41
+[13-Jan-2019 23:11:15 America/Chicago] PHP Notice:  Undefined index: cc in C:\myProjects\Beats2\app\Controllers\ConfirmController.php on line 41
+[13-Jan-2019 23:12:15 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\ConfirmController.php on line 36
+[13-Jan-2019 23:12:18 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\ConfirmController.php on line 36
+[13-Jan-2019 23:12:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\ConfirmController.php on line 36
+[13-Jan-2019 23:12:21 America/Chicago] PHP Notice:  Undefined index: cc in C:\myProjects\Beats2\app\Controllers\ConfirmController.php on line 42
+[13-Jan-2019 23:12:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\ConfirmController.php on line 36
+[13-Jan-2019 23:12:37 America/Chicago] PHP Notice:  Undefined index: cc in C:\myProjects\Beats2\app\Controllers\ConfirmController.php on line 42
+[13-Jan-2019 23:13:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\CartController.php on line 35
+[13-Jan-2019 23:30:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\ConfirmController.php on line 36
+[13-Jan-2019 23:30:07 America/Chicago] PHP Notice:  Undefined index: email in C:\myProjects\Beats2\app\Controllers\ConfirmController.php on line 42
+[13-Jan-2019 23:30:13 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\CartController.php on line 34
+[16-Jan-2019 19:55:29 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\CartController.php on line 34
+[16-Jan-2019 19:57:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\CartController.php on line 34
+[16-Jan-2019 20:14:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in C:\myProjects\Beats2\app\Controllers\CartController.php on line 34

@@ -1,0 +1,23 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "css-loader": "^1.0.1",
+    "hover.css": "^2.3.2",
+    "jquery-parallax.js": "^1.5.0",
+    "loaders.css": "^0.1.2",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass css/style.scss css/style.css -w"
+  },
+  "author": "Jarrell",
+  "license": "ISC"
+}

@@ -1,0 +1,37 @@
+{% extends 'admin/index.twig' %}
+
+
+{% block content %}
+    <h1>Messages</h1>
+    {% if message %}
+        {{ message|raw }}
+    {% endif %}
+
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Email</th>
+                <th scope="col">Subject</th>
+                <th scope="col">Message</th>
+                <th></th>
+                <th></th>
+            </tr>
+            </thead>
+
+            <tbody>
+            {% for message in messages %}
+                <tr>
+                    <th scope="row">{{ loop.index }}</th>
+                    <td>{{ message.email }}</td>
+                    <td>{{ message.subject }}</td>
+                    <td>{{ message.message|length > 50 ? message.message|slice(0, 50) ~ '...' : message.message }}</td>
+                    <td><a href="{{ path_for("admin.viewMessage", {'id': message.id}) }}" class="btn btn-info btn-sm">View</a></td>
+                    <td><a href="{{ path_for("admin.deleteMessage", {'id': message.id}) }}" class="btn btn-danger btn-sm">Delete</a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
